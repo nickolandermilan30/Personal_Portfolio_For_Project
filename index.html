@@ -8,10 +8,20 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
     <link rel="stylesheet" href="additional.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Fredoka:wght@300;400;500;600;700&family=Petrona:wght@100;200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+ 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
   </head>
   <body>
     <nav id="desktop-nav">
-      <div class="logo">Nicko Lander </div>
+      <div class="logo">Nicko Lander <span class="dot1">.<span class="dot2">.</span><span class="dot3">.</span></span> </div>
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
@@ -22,7 +32,7 @@
       </div>
     </nav>
     <nav id="hamburger-nav">
-      <div class="logo">Nicko Lander </div>
+      <div class="logo">Nicko Lander <span class="dot1">.<span class="dot2">.</span><span class="dot3">.</span></span> </div>
       <div class="hamburger-menu">
         <div class="hamburger-icon" onclick="toggleMenu()">
           <span></span>
@@ -56,22 +66,16 @@
             Contact Info
           </button>
         </div>
-        <div id="socials-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="My LinkedIn profile"
-            class="icon"
-            onclick="location.href='https://linkedin.com/'"
-          />
-          <img
-            src="./assets/github.png"
-            alt="My Github profile"
-            class="icon"
-            onclick="location.href='https://github.com/'"
-          />
-        </div>
-      </div>
+<br>
+        <fieldset>
+          <input type="checkbox" class="chip" role="switch" value="Mobile Development" aria-label="Pear" checked/>
+          <input type="checkbox" class="chip" role="switch" value="Web Development" aria-label="Banana" style="--color: #fd5"  />
+        
+        </fieldset>
+
     </section>
+
+    
 
     <br>
     <br>

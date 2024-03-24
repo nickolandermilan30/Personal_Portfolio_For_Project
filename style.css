@@ -24,6 +24,7 @@ p {
 a,
 .btn {
   transition: all 300ms ease;
+  
 }
 
 /* DESKTOP NAV */
@@ -227,7 +228,7 @@ section {
   transition: all 300ms ease;
   padding: 1rem;
   width: 8rem;
-  font-family: sans-serif;
+  font-family: "Manrope";
   border-radius: 2rem;
 }
 
