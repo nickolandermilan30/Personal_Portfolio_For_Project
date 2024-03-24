@@ -105,7 +105,7 @@ var canvasDots = function() {
     this.vy = -.5 + Math.random();
 
     // Palakihin ang radius ng bawat dot
-    this.radius = Math.random() * 1.8; // Pagpalit sa halaga ng radius ay nagbibigay ng mas malaking mga dots
+    this.radius = Math.random() * 1.8;
 }
 
 
@@ -186,3 +186,12 @@ var canvasDots = function() {
 window.onload = function() {
   canvasDots();
 };
+
+function sendEmail() {
+  var emailAddress = 'nickolandermilan30@gmail.com';
+
+  var mailtoLink = 'https://mail.google.com/mail/?view=cm&fs=1&to=' + encodeURIComponent(emailAddress);
+
+  // Open Gmail compose window
+  window.location.href = mailtoLink;
+}

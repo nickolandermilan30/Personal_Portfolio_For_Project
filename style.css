@@ -43,7 +43,7 @@ nav {
 .nav-links {
   gap: 2rem;
   list-style: none;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 a {
@@ -206,6 +206,10 @@ section {
   justify-content: center;
   margin-top: 1rem;
   gap: 1rem;
+}
+
+.text-container p {
+  color: black;
 }
 
 /* ICONS */

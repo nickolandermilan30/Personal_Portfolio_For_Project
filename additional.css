@@ -260,3 +260,70 @@
 body {
   background-color: rgb(255, 255, 255);
 }
+
+.title:hover {
+  transform: translateY(-5px); /* Pataasin ang laman ng 5 pixels kapag nakatutok ang cursor */
+  transition: transform 0.3s ease; /* Magdagdag ng transition para sa paggalaw */
+}
+
+.section__text__p1:hover {
+  transform: translateY(-5px); /* Pataasin ang laman ng 5 pixels kapag nakatutok ang cursor */
+  transition: transform 0.3s ease; /* Magdagdag ng transition para sa paggalaw */
+}
+
+.btn-color-2:hover {
+  transform: translateY(-5px); /* Pataasin ang laman ng 5 pixels kapag nakatutok ang cursor */
+  transition: transform 0.3s ease; /* Magdagdag ng transition para sa paggalaw */
+}
+
+.btn-color-1:hover {
+  transform: translateY(-5px); /* Pataasin ang laman ng 5 pixels kapag nakatutok ang cursor */
+  transition: transform 0.3s ease; /* Magdagdag ng transition para sa paggalaw */
+}
+
+.chip:hover {
+  transform: translateY(-5px); /* Pataasin ang laman ng 5 pixels kapag nakatutok ang cursor */
+  transition: transform 0.3s ease; /* Magdagdag ng transition para sa paggalaw */
+}
+
+
+.logo:hover {
+  animation: bounce 0.5s ease 2 alternate; /* Gumamit ng keyframes animation na magpapabilis sa paggalaw ng dalawang beses */
+}
+
+@keyframes bounce {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-5px); } /* Pataasin ang laman ng 5 pixels sa kalahati ng animation */
+  100% { transform: translateY(0); }
+}
+
+.about-pic {
+  border-radius: 5%;
+}
+
+.about-pic {
+  border-radius: 10%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* magdagdag ng transition para sa paggalaw at shadow */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* magdagdag ng anino */
+}
+
+.about-pic:hover {
+  transform: rotate(-5deg); /* bumaba ang isang sulok */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 1.9); /* palakihin ang anino kapag tinutukan ng mouse */
+}
+
+
+.details-container {
+  border-radius: 5%;
+}
+
+.details-container {
+  border-radius: 10%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* magdagdag ng transition para sa paggalaw at shadow */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* magdagdag ng anino */
+}
+
+.details-container:hover {
+  transform: rotate(5deg); /* bumaba ang isang sulok */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 1.9); /* palakihin ang anino kapag tinutukan ng mouse */
+}
