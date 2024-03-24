@@ -307,6 +307,10 @@ section {
   gap: 4rem;
   height: 80%;
 }
+.rounded-img {
+  border-radius: 10%;
+}
+
 
 .section__pic-container {
   height: 400px;
@@ -430,3 +434,4 @@ footer {
 footer p {
   text-align: center;
 }
+
