@@ -1,0 +1,17 @@
+.section__text__p2 {
+    opacity: 0; /* itago ang teksto sa simula */
+    animation: fade-in 1s ease-in-out forwards; /* gumamit ng animation na fade-in */
+  }
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .text{
+    text-align: center;
+  }
