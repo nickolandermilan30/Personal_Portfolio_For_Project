@@ -233,3 +233,30 @@
   .dot3 {
     animation-name: blink-dot3;
   }
+
+  .rounded-img {
+    border-radius: 10%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* magdagdag ng transition para sa paggalaw at shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* magdagdag ng anino */
+  }
+  
+  .rounded-img:hover {
+    transform: rotate(5deg); /* bumaba ang isang sulok */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 1.9); /* palakihin ang anino kapag tinutukan ng mouse */
+  }
+  
+  
+  .connecting-dots {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
