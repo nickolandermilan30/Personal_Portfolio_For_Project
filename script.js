@@ -195,3 +195,18 @@ function sendEmail() {
   // Open Gmail compose window
   window.location.href = mailtoLink;
 }
+
+
+document.getElementById("toggleProjectsButton").addEventListener("click", function() {
+  var projectsSection = document.getElementById("projects2");
+  var toggleButton = document.getElementById("toggleProjectsButton");
+  
+  if (projectsSection.style.display === "none") {
+      projectsSection.style.display = "block";
+      toggleButton.textContent = "Hide Projects";
+  } else {
+      projectsSection.style.display = "none";
+      toggleButton.textContent = "Show Projects";
+  }
+});
+
