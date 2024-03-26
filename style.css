@@ -389,6 +389,13 @@ article .icon {
   height: 90%;
 }
 
+.project-img2 {
+  border-radius: 1.0rem;
+  width: 90%;
+  height: 90%;
+}
+
+
 .project-title {
   margin: 1rem;
   color: black;
