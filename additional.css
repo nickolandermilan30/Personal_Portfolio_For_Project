@@ -30,6 +30,7 @@
     border-radius: 100em;
     overflow: hidden;
     margin: 0;
+    font-family: "Fredoka";
     display: inline-block;
     
     &::after {
@@ -128,7 +129,7 @@
   .skills::before {
     content: "";
     position: absolute;
-    background: #6333ae;;
+    background: #2a2263;
     width: 160px;
     height: 110%;
     top: -50px;
@@ -150,7 +151,7 @@
   .skills-h1 {
     font-size: 2.5rem;
     font-weight: 700;
-    color: #6333ae;
+    color: #2a2263;
     line-height: 48px;
   }
   
@@ -262,9 +263,7 @@
     z-index: -1;
 }
 
-body {
-  background-color: rgb(255, 255, 255);
-}
+
 
 .title:hover {
   transform: translateY(-5px); /* Pataasin ang laman ng 5 pixels kapag nakatutok ang cursor */
