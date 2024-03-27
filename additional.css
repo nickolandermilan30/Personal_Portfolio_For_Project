@@ -12,6 +12,13 @@
     }
   }
 
+  .nicko{
+    color: #6333ae;
+  }
+
+  .me{
+    color: #6333ae;
+  }
 
   input:where(.chip[type="checkbox"]) {
     --color: #fa3;
@@ -327,3 +334,5 @@ body {
   transform: rotate(5deg); /* bumaba ang isang sulok */
   box-shadow: 0 6px 12px rgba(0, 0, 0, 1.9); /* palakihin ang anino kapag tinutukan ng mouse */
 }
+
+
