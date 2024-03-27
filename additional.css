@@ -30,7 +30,6 @@
     border-radius: 100em;
     overflow: hidden;
     margin: 0;
-    font-family: "Fredoka";
     display: inline-block;
     
     &::after {
@@ -129,7 +128,7 @@
   .skills::before {
     content: "";
     position: absolute;
-    background: #2a2263;
+    background: #6333ae;;
     width: 160px;
     height: 110%;
     top: -50px;
@@ -149,15 +148,14 @@
   }
   
   .skills-h1 {
-    font-family: "Baloo 2", sans-serif;
     font-size: 2.5rem;
     font-weight: 700;
-    color: #2a2263;
+    color: #6333ae;
     line-height: 48px;
   }
   
   .skills-h1 span {
-    color: #aa7eee;
+    color: #6333ae;
   }
   
   .skills-ul {
