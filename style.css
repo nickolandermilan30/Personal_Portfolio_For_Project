@@ -225,6 +225,16 @@ section {
   height: 3rem;
 }
 
+.icon3 {
+  cursor: pointer;
+  height: 3rem;
+}
+
+.icon4 {
+  cursor: pointer;
+  height: 3rem;
+}
+
 .para{
   font-size: 15px;
 }
@@ -319,6 +329,8 @@ section {
   text-align: center;
 }
 
+
+
 .section-container {
   gap: 4rem;
   height: 80%;
@@ -358,7 +370,7 @@ section {
   text-align: initial;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 2.5rem;
+  gap: 4.2rem;
   justify-content: space-around;
 }
 

@@ -333,3 +333,16 @@
 }
 
 
+
+  /* Responsive CSS */
+  @media screen and (max-width: 768px) {
+    .art {
+      width: calc(50% - 1rem); /* Sa responsive mode, pagkakahatiin ang artikulo sa dalawang column */
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .art {
+      width: calc(100% - 1rem); /* Sa mas maliit na screen, pagkakahatiin ang artikulo sa isang column */
+    }
+  }
