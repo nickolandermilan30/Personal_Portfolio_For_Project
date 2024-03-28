@@ -210,6 +210,19 @@ document.getElementById("toggleProjectsButton").addEventListener("click", functi
   }
 });
 
+document.getElementById("toggleSections").addEventListener("click", function() {
+  var projectsSection = document.getElementById("Tools");
+  var toggleButton = document.getElementById("toggleSections");
+  
+  if (projectsSection.style.display === "none") {
+      projectsSection.style.display = "block";
+      toggleButton.textContent = "Hide tools";
+  } else {
+      projectsSection.style.display = "none";
+      toggleButton.textContent = "Show tools";
+  }
+});
+
 
 const prevEl = document.querySelector(".prev");
 const nextEl = document.querySelector(".next");
